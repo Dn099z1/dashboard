@@ -1,0 +1,292 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  .header{
+    position: absolute;
+    width: 1086px;
+    height: 79px;
+    left: 405px;
+    top: 47px;
+    background: #1A1724;
+  border-radius: 12px;
+  }
+  .ageral h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 165px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .aloja h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 375px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .acompras h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 585px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .ainfo h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 795px;
+    top: -7px;
+    
+    font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  
+
+  
+  
+  .container {
+    position: absolute;
+    width: 804px;
+    height: 566px;
+    font-family: "Koulen", sans-serif;
+    left: 690px;
+    top: 160px;
+  
+    background: #1A1724;
+    border-radius: 19px;
+  }
+
+  .personagens {
+    position: absolute;
+width: 172px;
+height: 63px;
+left: 32px;
+top: 5px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 63px;
+
+color: #FFFFFF;
+
+  }
+
+  .clique {
+    position: absolute;
+width: 172px;
+height: 63px;
+left: 32px;
+top: 63px;
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+  }
+
+  .slotdesbloqueio {
+    position: absolute;
+    width: 251px;
+    height: 37px;
+    left: 220px;
+    color: white;
+    top: 340px;
+    background: #eeff00;
+    border-radius: 19px;
+    display: flex; /* Alinha o conteúdo do botão */
+    align-items: center; /* Centraliza o texto verticalmente */
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição de cor */
+}
+
+.slotdesbloqueio h1 {
+    font-family: "Koulen", sans-serif;
+    font-style: normal;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal; /* Ajusta a linha para centralização */
+    margin: 0; /* Remove margens */
+}
+
+.slotdesbloqueio:hover {
+    background: #d4e600; /* Cor ao passar o mouse */
+}
+
+.slotdesbloqueio:active {
+    background: #c1cc00; /* Cor ao clicar */
+}
+
+  .infopersonagem {
+    position: absolute;
+    width: 205px;
+    height: 256px;
+    left: 40%;
+    top: 30%;
+
+    background: #D9D9D9;
+    border-radius: 19px;
+
+  }
+
+.infopersonagem h1 {
+  
+  color: black;
+}
+.telefone h2, tel {
+position: absolute;
+left: 30px;
+top: 80px;
+width: 73px;
+height: 36px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+
+color: rgba(0, 0, 0, 0.63);
+
+
+}
+.telefone h3, number {
+  position: absolute;
+  left: 25px;
+  top: 95px;
+  width: 73px;
+  height: 36px;
+  
+  font-family: 'Koulen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  
+  color: rgb(0, 0, 0);
+  
+  
+  }
+
+  .Banco h2, tel {
+    position: absolute;
+    left: 26.5px;
+    top: 120px;
+    width: 73px;
+    height: 36px;
+    
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: rgba(0, 0, 0, 0.63);
+    
+    
+    }
+    .Banco h3, number {
+      position: absolute;
+      left: 32px;
+      top: 145px;
+      width: 73px;
+      height: 36px;
+      
+      font-family: 'Koulen';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 16px;
+      
+      color: rgb(0, 0, 0);
+      
+      
+      }
+      .idpersonagem h2, tel {
+        position: absolute;
+        left: 23px;
+        top: 160px;
+        width: 73px;
+        height: 36px;
+        
+        font-family: 'Koulen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        
+        color: rgba(0, 0, 0, 0.63);
+        
+        
+        }
+        .idpersonagem h3, number {
+          position: absolute;
+          left: 42px;
+          top: 175px;
+          width: 73px;
+          height: 36px;
+          
+          font-family: 'Koulen';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 36px;
+          
+          color: rgb(0, 0, 0);
+          
+          
+          }
+
+.bloq {
+  position: absolute;
+width: 205px;
+height: 256px;
+left: 286px;
+top: 1px;
+
+background: #D9D9D9;
+border-radius: 19px;
+
+}
+  
+.bloq img {
+  height: 100px;
+  width: auto;
+}

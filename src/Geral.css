@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.header{
+  position: absolute;
+  width: 1086px;
+  height: 79px;
+  left: 405px;
+  top: 47px;
+  background: #1A1724;
+border-radius: 12px;
+}
+.ageral h3{
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: 165px;
+  top: -7px;
+  
+font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  
+  color: #FFFFFF;
+}
+.aloja h3{
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: 375px;
+  top: -7px;
+  
+font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  
+  color: #FFFFFF;
+}
+.acompras h3{
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: 585px;
+  top: -7px;
+  
+font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  
+  color: #FFFFFF;
+}
+.ainfo h3{
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  left: 795px;
+  top: -7px;
+  
+  font-family: "Koulen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  
+  color: #FFFFFF;
+}
+
+.container {
+  position: absolute;
+  width: 804px;
+  height: 566px;
+  font-family: "Koulen", sans-serif;
+  left: 690px;
+  top: 160px;
+
+  background: #1A1724;
+  border-radius: 19px;
+}
+
+.eventosativos {
+  position: absolute;
+  font-family: "Koulen", sans-serif;
+
+  top: 250px;
+  left: 310px;
+
+}
+.patch-notes {
+  font-family: "Koulen", sans-serif;
+}

@@ -1,0 +1,220 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  .header{
+    position: absolute;
+    width: 1086px;
+    height: 79px;
+    left: 405px;
+    top: 47px;
+    background: #1A1724;
+  border-radius: 12px;
+  }
+
+   .quadradoarmored button {
+    font-family: "Koulen", sans-serif;
+    letter-spacing: .5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7rem;
+    border-radius: 20px;
+  }
+
+  .quadradocarro button {
+    font-family: "Koulen", sans-serif;
+    letter-spacing: .5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7rem;
+    border-radius: 20px;
+  }
+
+  .quadradovip button {
+    font-family: "Koulen", sans-serif;
+    letter-spacing: .5px;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7rem;
+    border-radius: 20px;
+  }
+  .ageral h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 165px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .aloja h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 375px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .acompras h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 585px;
+    top: -7px;
+    
+  font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  .ainfo h3{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 795px;
+    top: -7px;
+    
+    font-family: "Koulen", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+  }
+  
+  .container2 {
+    position: absolute;
+    width: 804px;
+    height: 566px;
+    font-family: "Koulen", sans-serif;
+    left: 690px;
+    top: 160px;
+  
+    background: #1A1724;
+    border-radius: 19px;
+  }
+  
+.vip {
+
+position: absolute;
+width: 138px;
+height: 38px;
+left: 90px;
+top: 90px;
+font-size: 25px;
+background: #564D73;
+border-radius: 19px;
+
+}
+
+.quadradovip {
+
+position: absolute;
+width: 138px;
+height: 161px;
+left: 90px;
+top: 140px;
+
+background: #564D73;
+border-radius: 19px;
+
+}
+.carro {
+
+    position: absolute;
+    width: 138px;
+    height: 38px;
+    left: 310px;
+    top: 90px;
+    font-size: 25px;
+    background: #564D73;
+    border-radius: 19px;
+    
+    }
+    
+    .quadradocarro {
+    
+    position: absolute;
+    width: 138px;
+    height: 161px;
+    left: 310px;
+    top: 140px;
+    
+    background: #564D73;
+    border-radius: 19px;
+    
+    }
+    .armored {
+
+        position: absolute;
+        width: 138px;
+        height: 38px;
+        left: 530px;
+        top: 90px;
+        font-size: 25px;
+        background: #564D73;
+        border-radius: 19px;
+        
+        }
+        
+        .quadradoarmored {
+        
+        position: absolute;
+        width: 138px;
+        height: 161px;
+        left: 530px;
+        top: 140px;
+        
+        background: #564D73;
+        border-radius: 19px;
+        
+        }
+        .quadradoarmored h1 {
+            position: absolute;
+width: 119px;
+height: 21px;
+left: 1px;
+top: 1px;
+
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+        }
+
+
+
+
+        .container2 h2 {
+          font-size: 35px;
+          color: rgb(201, 199, 197);
+        }
+
+
+       
