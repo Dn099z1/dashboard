@@ -19,7 +19,7 @@ const Sidebar = () => {
 
   const handleLogin = () => {
     const clientId = '1164230990399549440'; 
-    const redirectUri = 'http://localhost:5173/callback';
+    const redirectUri = 'https://frabjous-clafoutis-044b65.netlify.app/callback';
     const scope = 'identify';
 
     window.location.href = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=${scope}`;
@@ -31,7 +31,7 @@ const Sidebar = () => {
         client_id: '1164230990399549440',
         client_secret: 'WTkpKCalnUXQdpyYRaawW37j3hkNoaUs', 
         grant_type: 'authorization_code',
-        redirect_uri: 'http://localhost:5173/callback',
+        redirect_uri: 'https://frabjous-clafoutis-044b65.netlify.app/callback',
         code,
       }));
 
@@ -46,7 +46,7 @@ const Sidebar = () => {
       localStorage.setItem('discord_id', userResponse.data.id);
 
       setUser(userResponse.data);
-      window.location.href = 'http://localhost:5173/'; 
+      window.location.href = 'https://frabjous-clafoutis-044b65.netlify.app/'; 
     } catch (error) {
       console.error('Error fetching user data', error);
     }
@@ -54,7 +54,7 @@ const Sidebar = () => {
 
   const fetchAdditionalData = async (discordId: string) => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/user/${discordId}`);
+      const response = await axios.get(`https://frabjous-clafoutis-044b65.netlify.app/api/user/${discordId}`);
       setGemstone(response.data.gemstone);
       setUserId(response.data.id);
     } catch (error) {
